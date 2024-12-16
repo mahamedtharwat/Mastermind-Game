@@ -92,10 +92,10 @@ public class MastermindGame {
                 guessUsed[i] = true;
             }
         }
-        for(int i = 0; i < 4; i++){  // الرقم نفسه
-            if(guessUsed[i])continue;  // الرقم صح 
-            for(int j = 0; j < 4; j++){ // مكان الرقم 
-                if(!secretUsed[j] && guess[i] == secretCode[j]){ // المكان غلط 
+        for(int i = 0; i < 4; i++){  
+            if(guessUsed[i])continue;  
+            for(int j = 0; j < 4; j++){ 
+                if(!secretUsed[j] && guess[i] == secretCode[j]){  
                     count++;
                     secretUsed[j]=true;
                     break;
