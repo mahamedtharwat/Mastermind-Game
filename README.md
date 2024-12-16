@@ -1,4 +1,6 @@
 # 🧠 Mastermind-Game : 
+![AlbertEinsteinLolGIF](https://github.com/user-attachments/assets/289579a9-611f-491b-b81b-0cefb6c4cb16)
+
 ## The goal of the game is for the codebreaker to guess the secret 4-digit code created by the codemaker. Each digit in the secret code can be one of 6 possible colors (represented by numbers 1 to 6).
 ###
 ### Your Mastermind game implementation is well-structured and functional. However, here are a few suggestions to enhance the code quality and improve usability:
